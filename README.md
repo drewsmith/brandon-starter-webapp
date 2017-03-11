@@ -5,6 +5,7 @@ Brandon Starter App
 * SpringMVC
 * Spring Boot
 * Apache Tiles
+* JSTL Example
 
 ## Usage
 
