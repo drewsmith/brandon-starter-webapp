@@ -1,7 +1,10 @@
 package com.dmoney.controllers;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import java.util.Arrays;
 
 /**
  * Created by drew on 3/10/17.
@@ -15,7 +18,9 @@ public class HomeController {
     }
 
     @RequestMapping("/about")
-    public String getAbout() {
+    public String getAbout(Model model) {
+        model.addAttribute("message", "This message is for Brandon.");
+        model.addAttribute("bands", Arrays.asList("BTBAM", "Queen", "Bob Marley"));
         return "about";
     }
 
