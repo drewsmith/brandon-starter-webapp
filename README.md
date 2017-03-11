@@ -1,7 +1,12 @@
 Brandon Starter App
 ===
 
-Usage:
+## Includes
+* SpringMVC
+* Spring Boot
+* Apache Tiles
+
+## Usage
 
 ```
 mvn sprint-boot:run
