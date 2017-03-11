@@ -1,0 +1,25 @@
+.clickable {
+    cursor:pointer;
+}
+li.name-item {
+    list-style-type: none;
+    margin:0 0 5px 0;
+    padding:10px;
+    background:#f9f9f9;
+    color:#333333;
+    font-weight:300;
+    cursor:pointer;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border:1px solid #eeeeee;
+}
+li.name-item:hover {
+    background:#eeeeee;
+    border:1px solid #dddddd;
+    color:#000000;
+}
+#name-list {
+    margin:0;
+    padding:0;
+}
